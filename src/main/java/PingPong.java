@@ -10,7 +10,7 @@ public class PingPong {
         for (int i = 1; i <= countUpTo; i++){
 
             if (i % 3 == 0 && i % 5 == 0) {
-                result.add("pingpong");
+                result.add("ping-pong");
             } else if (i % 3 == 0 ) {
                 result.add("ping");
             } else if (i % 5 == 0){

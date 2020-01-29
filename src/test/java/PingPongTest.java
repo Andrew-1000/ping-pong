@@ -71,7 +71,7 @@ public class PingPongTest {
         expectedOutput.add("ping");
         expectedOutput.add(13);
         expectedOutput.add(14);
-        expectedOutput.add("pingpong");
+        expectedOutput.add("ping-pong");
         assertEquals(expectedOutput, testPingPong.runPingPong(15));
     }
 
